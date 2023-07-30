@@ -143,7 +143,7 @@ venv.bak/
 /site
 
 .DS_Store
-
+.space
 # mypy
 .mypy_cache/
 .dmypy.json
@@ -176,3 +176,4 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
+.space

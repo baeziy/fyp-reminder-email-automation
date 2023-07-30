@@ -4,9 +4,8 @@ from send_emails import get_quote
 
 
 
-
 def sending_emails():
-    
+
     global email_counter  # Declare email_counter as global
 
     for i in range(len(names)):
@@ -26,4 +25,4 @@ email_counter = 0
 names = ["Fahad", "Sarmad"]
 emails = ["mustfakmalik@gmail.com", "mustafakmalik2000@gmail.com"]
 
-print(sending_emails())
+print( sending_emails())
